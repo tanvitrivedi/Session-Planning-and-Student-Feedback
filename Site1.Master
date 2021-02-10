@@ -1,0 +1,183 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="WEBAPP.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>WEB APP</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- <link rel="manifest" href="site.webmanifest"> -->
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/themify-icons.css">
+    <link rel="stylesheet" href="css/nice-select.css">
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/slicknav.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="css/responsive.css"> -->
+  
+</head>
+<body>
+    <!-- header-start -->
+    <header>
+        <div class="header-area ">
+            <div id="sticky-header" class="main-header-area ">
+                <div class="container-fluid p-0">
+                    <div class="row align-items-center justify-content-between no-gutters">
+                        <div class="col-xl-2 col-lg-2">
+                            <div class="logo-img">
+                                <a href="home.html">
+                                  <!--  <img src="img/logo.png" alt=""> !-->
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xl-8 col-lg-8">
+                            <div class="main-menu  d-none d-lg-block">
+                                <nav>
+                                    <ul id="navigation">
+                                        <li><a  href="home.aspx">Home</a></li>
+                                        <li><a href="Registration.aspx">Registration</a></li>
+                                        <li><a href="login.aspx">Student Page </a></li> 
+                                        <li><a href="login.aspx">Student Info</a></li>
+                                        <li><a href="contact.aspx">Contact</a></li>
+                                        
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 d-none d-lg-block">
+                            <div class="buy_ticket">
+                                <a href="login.aspx" class="boxed-btn-white">Login</a>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="mobile_menu d-block d-lg-none"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header-end -->
+
+    <!-- slider_area_start -->
+    
+    <div class="slider_area slider_bg_1">
+        <div class="slider_text">
+                   <div class="container">
+                    <div class="position_relv">
+                    <h1 class="opcity_text d-none d-lg-block">APP WEB</h1>
+                    <div class="row">
+                        <div class="col-xl-9">
+                            <div class="title_text">
+                                <h3> 
+                                    <div>   
+                                        <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+                                        </asp:ContentPlaceHolder>
+                                    </div>
+                                   
+                                    </h3>
+                               </div>
+                        </div>
+                    </div>
+               </div>
+                </div>
+          </div>
+        </div>
+
+<section class="sample-text-area">
+		<div class="container box_1170">
+			<p class="sample-text">
+			        <div>   
+                         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                         </asp:ContentPlaceHolder>
+                         </div>
+			</p>
+		</div>
+	</section>
+	<!-- End Sample Area -->
+
+
+        
+    <!-- footer_start -->
+    <footer class="footer footer_bg_1">
+        <div class="circle_ball d-none d-lg-block">
+            <img src="img/banner/footer_ball.png" alt="">
+        </div>
+            <div class="footer_top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-4 col-md-4 col-lg-4">
+                            <div class="footer_widget">
+                                <h3 class="footer_title">
+                                        Follow Us
+                                </h3>
+                                <ul>
+                                    <li><a target="_blank" href="facebook.com">Facebook</a></li>
+                                    <li><a target="_blank" href="twitter.com">Twitter</a></li>
+                                    <li><a target="_blank" href="instagram.com">Instagram</a></li>
+                                    <li><a target="_blank" href="youtube.com">Youtube</a></li>
+                                </ul>
+    
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-md-4 col-lg-4">
+                            <div class="footer_widget">
+                                <h3 class="footer_title">
+                                        Links
+                                </h3>
+                                <ul>
+                                    <li><a target="_blank" href="schedule.html">Schedule</a></li>
+                                    <li><a target="_blank" href="speakers.html">Speakers</a></li>
+                                    <li><a target="_blank" href="contact.html">Contact</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-md-4 col-lg-4">
+                            <div class="footer_widget">
+                                <h3 class="footer_title">
+                                        Venue
+                                </h3>
+                                <p>
+                                    ICT - Information of Computer Technology <br>
+                                    www.ict.gnu.ac.in <br>
+                                    +91 XXXXX XXXXX
+                                    
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copy-right_text">
+                <div class="container">
+                    <div class="footer_border"></div>
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <p class="copy_right text-center">
+                                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="contact.html" target="_blank">Vikas Sharma</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    <!-- footer_end -->
+
+        
+    
+</body>
+</html>
